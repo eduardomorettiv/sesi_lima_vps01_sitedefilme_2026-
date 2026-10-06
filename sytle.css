@@ -15,6 +15,7 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    position: fixed;
 }
 header h1{
     margin: 10px;
@@ -74,6 +75,7 @@ iframe{
     padding: 10px;
     margin: 10px;
     gap: 15px;
+    transition: transform 0.3s ease;
 }
 #elenco{
     display: flex;
@@ -108,4 +110,14 @@ footer img{
 }
 header a:hover{
     color: red;
+}
+input{
+    transition: background-color 0.3s ease;
+}
+input:hover{
+    background: red;
+}
+textarea{
+    width: 400px;
+    height: 50px;
 }
